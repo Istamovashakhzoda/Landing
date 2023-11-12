@@ -30,8 +30,13 @@
 
 .afterhead{
     display: flex;
-    justify-content: space-between;
     margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftside{
+    width: 500px;
 }
 
 .leftside h2{
@@ -46,11 +51,11 @@
     display: flex;
     align-items: center;
     font-weight: 800;
-    font-size: 96px;
+    font-size: 72px;
 }
 
 .leftside h1 span img{
-    width: 92px;
+    width: 72px;
     height: 81px;
 }
 
@@ -70,4 +75,18 @@
     border: none;
     font-size: 19px;
     font-family: Roboto;
+    /* margin-top: -490px; */
 }
+
+.rightside img{
+    width: 790px;
+    height: 600px;
+    /* margin-top: -50px; */
+}
+
+
+/* .firstimg{
+    padding-top:225px;
+    padding-left:20px; */
+
+/* } */
